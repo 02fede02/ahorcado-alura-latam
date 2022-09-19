@@ -1,0 +1,180 @@
+body{
+    background: #F3F5FC;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.btn-principal{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iniciar-juego{
+    margin-top: 15%;
+    background-color: #0A3871;
+    color: #ffffff;
+    width: 10%;
+    padding: 1.2%;
+    border-radius: 15px;
+    border: none;
+}
+
+.agregar-palabra{
+    margin-top: 1%;
+    padding: 0.5%;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+#ingresar-palabra{
+    color: #0A3871;
+    font-weight: bold;  
+    font-size: 150%;
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 51%;
+    border: transparent;
+    background: #F3F5FC;
+    outline: none;
+    resize: none;
+}
+
+.condicion-palabra{
+    margin-left: 25%;
+    margin-bottom: 1%;
+    color: #495057;
+    font-size: 70%;
+}
+
+#guardar-empezar{
+    width: 15%;
+    margin-left: 25%;
+    margin-right: 0.8%;
+    background: #0A3871;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 15px;
+}
+
+#cancelar{
+    width: 15%;
+    padding: 1%;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+.juego-display{
+    display: flex;
+    flex-direction: column; 
+}
+
+.ahorcado{
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.juego-display-botones{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.juego-display-p{
+    text-align: center;
+    padding: 1%;
+}
+
+#nuevo-juego{
+    width: 15%;
+    background: #0A3871;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 15px;
+}
+
+#desistir{
+    width: 15%;
+    padding: 1%;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+.letra{
+    font-size: 180%;
+    margin-right: 1%;
+    color: #F3F5FC;
+    border-bottom: 2px solid  #0A3871;
+}
+
+.letras-equivocadas{
+    color: #0A3871;
+}
+
+@media screen and (max-width: 480px) {
+ 
+    .logo{
+        margin-top: 5%;
+    }
+
+    .iniciar-juego{
+        width: 80%;
+        padding: 10%;
+        margin-top: 50%;
+    }
+
+    .agregar-palabra{
+        margin-top: 5%;
+        width: 70%;
+        padding: 5%;
+    }
+
+    #ingresar-palabra{
+        width: 80%;
+        margin: 12% 0 10% 10%;
+    }
+
+    .condicion-palabra{
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+
+    #guardar-empezar, #cancelar{
+        display: block;
+        width: 90%;
+        margin: 5% 0 5% 5%;
+        padding: 5%;
+    }
+
+    .ahorcado{
+        /* width: 100%;
+        margin-bottom: 20%; */
+    }
+
+    .juego-display-botones{
+        flex-direction: column;
+    }
+
+    #nuevo-juego, #desistir{
+        width: 90%;
+        margin: 5% 0 3% 5%;
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    
+}
