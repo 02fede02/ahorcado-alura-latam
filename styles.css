@@ -81,6 +81,7 @@ body{
 .ahorcado{
     /* width: 100%; */
     margin: 0 auto;
+    /* object-fit: contain; */
 }
 
 .juego-display-botones{
@@ -156,11 +157,6 @@ body{
         width: 90%;
         margin: 5% 0 5% 5%;
         padding: 5%;
-    }
-
-    .ahorcado{
-        /* width: 100%;
-        margin-bottom: 20%; */
     }
 
     .juego-display-botones{

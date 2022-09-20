@@ -138,7 +138,7 @@ function captandoTeclado(e){
         if(!/[a-z]/.test(e.key) || e.key.length > 1){
             return
         } 
-
+        
         const palabraArr = palabra.split("")
         letraUsuario = e.key
 
