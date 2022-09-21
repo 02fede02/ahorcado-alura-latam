@@ -1,11 +1,6 @@
 const width = window.innerWidth * 0.65
 const height = window.innerHeight * 0.8
 
-console.log(`Window innerWidth: ${window.innerWidth}`)
-console.log(`Width *0.65: ${width}`)
-console.log(`Window innerheight: ${window.innerHeight}`)
-console.log(`Width *0.65: ${height}`)
-
 function cargandoPagina(){
     const screen = document.querySelector(".ahorcado")
     screen.width = width
