@@ -1,5 +1,5 @@
 const width = window.innerWidth * 0.65
-const height = window.innerHeight * 0.8
+const height = window.innerHeight * 0.75
 
 function cargandoPagina(){
     const screen = document.querySelector(".ahorcado")
